@@ -2,6 +2,16 @@ body {
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
 }
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #838487;
+}
+
+a:hover {
+    color: #6c8ae1;
+}
+
 .hero-header, footer {
     background-color: #1F2937;
     display: flex;
@@ -11,7 +21,7 @@ body {
 }
 
 .header {
-    border: 1px solid white;
+    /* border: 1px solid white; */
 
     display: flex;
     width: 1150px;
@@ -25,11 +35,12 @@ body {
 }
 
 .header > div {
-    border: 1px solid white;
-
+    /* border: 1px solid white; */
+    margin: 18px 0px;
+    width: 400px;
     color: #838487;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .pull-quote {
