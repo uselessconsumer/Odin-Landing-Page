@@ -5,7 +5,7 @@ body {
 
 a:link, a:visited, a:active {
     text-decoration: none;
-    color: #838487;
+    color: white;
 }
 
 a:hover {
@@ -21,8 +21,6 @@ a:hover {
 }
 
 .header {
-    /* border: 1px solid white; */
-
     display: flex;
     width: 1150px;
     color: white;
@@ -31,16 +29,49 @@ a:hover {
 
 .logo {
     font-weight: 900;
-    font-size: 18px;
+    font-size:24px;
 }
 
 .header > div {
-    /* border: 1px solid white; */
-    margin: 18px 0px;
-    width: 400px;
-    color: #838487;
+    margin: auto 0px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    width: 1150px;
+    padding: 75px 0px;
+    justify-content: space-between;
+}
+
+.hero-left {
+    width: 450px;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.hero-text {
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-image {
+    width: 600px;
+    height: 200px;
+}
+
+button {
+    padding: 5px 25px;
+    color: white;
+    background-color: #3882f6;
+    border: 0px;
 }
 
 .pull-quote {
