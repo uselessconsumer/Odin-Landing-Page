@@ -64,7 +64,7 @@ a:hover {
 
 .hero-image {
     width: 600px;
-    height: 200px;
+    height: 214.5px;
 }
 
 button {
@@ -72,6 +72,7 @@ button {
     color: white;
     background-color: #3882f6;
     border: 0px;
+    border-radius: 5px;
 }
 
 .pull-quote {
