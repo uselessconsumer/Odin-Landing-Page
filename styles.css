@@ -81,11 +81,18 @@ button {
     align-items: center;
 }
 
+.random {
+    font-weight: 900;
+    font-size: 36px;
+    margin: 50px auto;
+}
+
 .images {
     display: flex;
     flex-direction: row;
     width: 1150px;
     justify-content: center;
+    margin-bottom: 50px;;
 }
 
 .images div {
@@ -93,7 +100,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0px 30px ;
+    margin: 0px 25px ;
 }
 
 .images img {
