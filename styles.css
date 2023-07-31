@@ -84,14 +84,25 @@ button {
 .images {
     display: flex;
     flex-direction: row;
+    width: 1150px;
 }
 
-.pull-quote {
-    background-color: #E5E7EB;
+.images div {
+    width: 200px;
 }
 
 .images img {
     border: 5px solid #3882f6;
     border-radius: 20px;
-    width: 200px;
+    width: 150px;
+}
+
+.images p {
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+}
+
+.pull-quote {
+    background-color: #E5E7EB;
 }
