@@ -71,8 +71,12 @@ button {
     padding: 7px 35px;
     color: white;
     background-color: #3882f6;
-    border: 0px;
+    border: 2px solid white;
     border-radius: 5px;
+}
+
+.hero-left > button {
+    border: 0px;
 }
 
 .section-two {
@@ -131,4 +135,16 @@ button {
 .thor {
     align-self: flex-end;
     font-weight: 900;
+}
+
+.c2a {
+    display: flex;
+    background-color: #3882f6;
+    width: 1150px;
+    margin: 75px auto;
+    border-radius: 5px;
+}
+
+.c2a > div {
+    display: flex;
 }
