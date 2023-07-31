@@ -141,10 +141,31 @@ button {
     display: flex;
     background-color: #3882f6;
     width: 1150px;
-    margin: 75px auto;
+    margin: 100px auto;
     border-radius: 5px;
 }
 
 .c2a > div {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+    padding: 50px 0;
+    color: white;
+}
+
+.c2a p {
+    margin: 5px;
+}
+
+.call {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+footer {
+    color: white;
+    font-size: 15px;
+    padding: 20px 0px;
 }
