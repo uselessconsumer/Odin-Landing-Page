@@ -117,4 +117,18 @@ button {
 
 .pull-quote {
     background-color: #E5E7EB;
+    padding: 100px 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.thor {
+    align-self: flex-end;
+    font-weight: 900;
 }
